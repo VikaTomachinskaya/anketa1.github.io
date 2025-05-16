@@ -1,0 +1,1059 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Анкета</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h2>Анкета</h2>
+    <p>Здравствуйте! Просим Вас принять участие в этом исследовании. Анкета анонимная, подписывать ее не надо, все данные будут использоваться только в обобщенном виде.</p>
+    <form id="survey-form">
+        
+        <fieldset>
+            <legend>I. Есть ли у вас дома интернет?</legend>
+            <input type="radio" name="internet" value="Да"> Да<br>
+            <input type="radio" name="internet" value="Нет"> Нет<br>
+        </fieldset>
+        
+        <fieldset>
+            <legend>II. Сколько времени в день вы проводите в сети?</legend>
+            <input type="radio" name="time_online" value="Менее часа"> Менее часа<br>
+            <input type="radio" name="time_online" value="1-3 часа"> 1-3 часа<br>
+            <input type="radio" name="time_online" value="4-5 часов"> 4-5 часов<br>
+            <input type="radio" name="time_online" value="Более 5 часов"> Более 5 часов<br>
+            <input type="radio" name="time_online" value="Все свободное время"> Все свободное время<br>
+        </fieldset>
+        
+        <fieldset>
+            <legend>III. Что вы делаете в интернете? (можно выбрать несколько вариантов)</legend>
+            <input type="checkbox" name="activities[]" value="Ищу информацию"> Ищу для себя интересную информацию<br>
+            <input type="checkbox" name="activities[]" value="Учеба"> Использую для учебы<br>
+            <input type="checkbox" name="activities[]" value="Игры"> Играю<br>
+            <input type="checkbox" name="activities[]" value="Медиа"> Слушаю музыку, радио, смотрю фильмы<br>
+            <input type="checkbox" name="activities[]" value="Контент"> Сам/а занимаюсь созданием контента<br>
+            <input type="checkbox" name="activities[]" value="Соцсети"> Пользуюсь социальными сетями, блогами<br>
+            <input type="checkbox" name="activities[]" value="Знакомства"> Ищу новые знакомства<br>
+            <input type="checkbox" name="activities[]" value="Покупки"> Совершаю покупки<br>
+            <input type="checkbox" name="activities[]" value="Заработок"> Зарабатываю деньги<br>
+            <input type="checkbox" name="activities[]" value="Общение"> Общаюсь с другими членами интернет-группы<br>
+        </fieldset>
+        
+        <fieldset>
+            <legend>IV. Всех ли своих друзей в социальных сетях вы знаете лично?</legend>
+            <input type="radio" name="friends" value="Всех знаю лично"> Всех знаю лично<br>
+            <input type="radio" name="friends" value="Некоторых никогда не видел"> Некоторых никогда не видел<br>
+            <input type="radio" name="friends" value="Большинство никогда не видел"> Большинство никогда не видел<br>
+            <input type="radio" name="friends" value="Никого лично не видел"> Никого лично не видел<br>
+        </fieldset>
+        
+        <fieldset>
+            <legend>V. Насколько вы доверяете информации, полученной через интернет?</legend>
+            <input type="radio" name="trust" value="Полностью доверяю"> Полностью доверяю всякой информации<br>
+            <input type="radio" name="trust" value="Частично доверяю"> Доверяю не всякой информации<br>
+            <input type="radio" name="trust" value="Минимально доверяю"> Доверие вызывает минимум информации<br>
+            <input type="radio" name="trust" value="Не доверяю"> Совершенно не доверяю<br>
+        </fieldset>
+        
+        
+            <fieldset>
+            <legend>VI. Какие у вас отношения с родителями?</legend>
+            <input type="radio" name="trust1" value="Доверительные"> Доверительные<br>
+            <input type="radio" name="trust1" value="Хорошие"> Хорошие<br>
+            <input type="radio" name="trust1" value="Нейтральные"> Нейтральные<br>
+            <input type="radio" name="trust1" value="Плохие"> Плохие<br>
+            <input type="radio" name="trust1" value="Враждебные"> Враждебные<br>
+        </fieldset>
+        
+        <fieldset>
+            <legend>VII. В настоящий момент:</legend>
+            <input type="radio" name="current_state" value="Живу одним днём"> Я предпочитаю жить одним днем<br>
+            <input type="radio" name="current_state" value="Думаю о будущем, но не определился"> Я думаю о своем будущем, но пока не могу определиться<br>
+            <input type="radio" name="current_state" value="Четко представляю будущее"> Я отчетливо представляю себе свое будущее<br>
+        </fieldset>
+        
+        <fieldset>
+            <legend>VIII. Как вы думаете, почему люди вступают в неформальные группы в интернете? (можно выбрать несколько вариантов)</legend>
+            <input type="checkbox" name="activities[]" value="Ищу информацию"> Чтобы преодолеть одиночество<br>
+            <input type="checkbox" name="activities1[]" value="Учеба"> Справиться с непониманием родителей<br>
+            <input type="checkbox" name="activities1[]" value="Игры"> Возможность самоутвердиться<br>
+            <input type="checkbox" name="activities1[]" value="Медиа"> Чтобы бороться против лицемерия и неискренности взрослых<br>
+            <input type="checkbox" name="activities1[]" value="Контент"> Для знакомства с девушками/парнями<br>
+            <input type="checkbox" name="activities1[]" value="Соцсети"> Для совместных занятий спортом<br>
+            <input type="checkbox" name="activities1[]" value="Знакомства"> Получить защиту в сложных жизнеыннх ситуациях<br>
+            <input type="checkbox" name="activities1[]" value="Покупки"> Стать членом братства<br>
+            <input type="checkbox" name="activities1[]" value="Заработок"> Справиться со скукой<br>
+            <input type="checkbox" name="activities1[]" value="Общение"> Чтобы стать самостоятельным/ой<br>
+            <input type="checkbox" name="activities1[]" value="Общение"> Чтобы быть модным/ой<br>
+            <input type="checkbox" name="activities1[]" value="Общение"> Чтобы весело проводить время, тусоваться в офлайн<br>
+            <input type="checkbox" name="activities1[]" value="Общение"> Чтобы изменить свою жизнь<br>
+            
+        </fieldset>
+        
+        
+        
+        <!-- Раздел IX -->
+        <fieldset>
+            <legend>IX. Как жизненные ценности являются для вас важными?</legend>
+
+            <label for="q1">1. Счастливая семейная жизнь:</label><br>
+            <input type="radio" name="q1" value="не_важно"> Не важно
+            <input type="radio" name="q1" value="затрудняюсь_ответить"> Затрудняюсь ответить
+            <input type="radio" name="q1" value="важно"> Важно
+            <br>
+
+            <label for="q2">2. Успешная профессиональная карьера:</label><br>
+            <input type="radio" name="q2" value="не_важно"> Не важно
+            <input type="radio" name="q2" value="затрудняюсь_ответить"> Затрудняюсь ответить
+            <input type="radio" name="q2" value="важно"> Важно
+            <br>
+            
+            <label for="q3">3. Достижение материального благополучия:</label><br>
+            <input type="radio" name="q3" value="не_важно"> Не важно
+            <input type="radio" name="q3" value="затрудняюсь_ответить"> Затрудняюсь ответить
+            <input type="radio" name="q3" value="важно"> Важно
+            <br>
+            
+            <label for="q4">4. Развитие своих способностей:</label><br>
+            <input type="radio" name="q4" value="не_важно"> Не важно
+            <input type="radio" name="q4" value="затрудняюсь_ответить"> Затрудняюсь ответить
+            <input type="radio" name="q4" value="важно"> Важно
+            <br>
+            
+             <label for="q5">5. Общение с интересными людьми:</label><br>
+            <input type="radio" name="q5" value="не_важно"> Не важно
+            <input type="radio" name="q5" value="затрудняюсь_ответить"> Затрудняюсь ответить
+            <input type="radio" name="q5" value="важно"> Важно
+            <br>
+            
+             <label for="q6">6. Стать родителем и воспитывать детей:</label><br>
+            <input type="radio" name="q6" value="не_важно"> Не важно
+            <input type="radio" name="q6" value="затрудняюсь_ответить"> Затрудняюсь ответить
+            <input type="radio" name="q6" value="важно"> Важно
+            <br>
+            
+            <label for="q7">7. Познание себя:</label><br>
+            <input type="radio" name="q7" value="не_важно"> Не важно
+            <input type="radio" name="q7" value="затрудняюсь_ответить"> Затрудняюсь ответить
+            <input type="radio" name="q7" value="важно"> Важно
+            <br>
+            
+             <label for="q8">8. Успешная политическая карьера:</label><br>
+            <input type="radio" name="q8" value="не_важно"> Не важно
+            <input type="radio" name="q8" value="затрудняюсь_ответить"> Затрудняюсь ответить
+            <input type="radio" name="q8" value="важно"> Важно
+            <br>
+            
+            <label for="q9">9. Приобщение к мировой культуре:</label><br>
+            <input type="radio" name="q9" value="не_важно"> Не важно
+            <input type="radio" name="q9" value="затрудняюсь_ответить"> Затрудняюсь ответить
+            <input type="radio" name="q9" value="важно"> Важно
+            <br>
+
+            
+            <label for="q10">10. Добиться уважения окружающих:</label><br>
+            <input type="radio" name="q10" value="не_важно"> Не важно
+            <input type="radio" name="q10" value="затрудняюсь_ответить"> Затрудняюсь ответить
+            <input type="radio" name="q10" value="важно"> Важно
+            <br>
+            
+            <label for="q11">11. Получение удовольствия от жизни:</label><br>
+            <input type="radio" name="q11" value="не_важно"> Не важно
+            <input type="radio" name="q11" value="затрудняюсь_ответить"> Затрудняюсь ответить
+            <input type="radio" name="q11" value="важно"> Важно
+            <br>
+            
+            <label for="q12">12. Принадлежность к сплоченной группе, команде, братству:</label><br>
+            <input type="radio" name="q12" value="не_важно"> Не важно
+            <input type="radio" name="q12" value="затрудняюсь_ответить"> Затрудняюсь ответить
+            <input type="radio" name="q12" value="важно"> Важно
+            <br>
+            
+          
+
+            <label for="q13">13. Уметь решать вопросы, быть «крутым/ой»:</label><br>
+            <input type="radio" name="q13" value="не_важно"> Не важно
+            <input type="radio" name="q13" value="затрудняюсь_ответить"> Затрудняюсь ответить
+            <input type="radio" name="q13" value="важно"> Важно
+            <br><br>
+        </fieldset>
+
+        <!-- Раздел X -->
+        <fieldset>
+            <legend>X. Насколько вы согласны с приведенными ниже тезисами?</legend>
+
+            <label for="t1">1. С человеком легче общаться и дружить онлайн, чем лично:</label><br>
+            <input type="radio" name="t1" value="1"> Категорически не согласны
+            <input type="radio" name="t1" value="2"> Скорее не согласны
+            <input type="radio" name="t1" value="3"> Затрудняюсь ответить
+            <input type="radio" name="t1" value="4"> Скорее согласны
+            <input type="radio" name="t1" value="5"> Совершенно согласны
+            <br>
+
+            <label for="t2">2. В интернете самыми интересными являются сайты знакомств:</label><br>
+            <input type="radio" name="t2" value="1"> Категорически не согласны
+            <input type="radio" name="t2" value="2"> Скорее не согласны
+            <input type="radio" name="t2" value="3"> Затрудняюсь ответить
+            <input type="radio" name="t2" value="4"> Скорее согласны
+            <input type="radio" name="t2" value="5"> Совершенно согласны
+            <br>
+            
+            <label for="t3">3. В интернете лучше всего играть в онлайн-игры:</label><br>
+            <input type="radio" name="t3" value="1"> Категорически не согласны
+            <input type="radio" name="t3" value="2"> Скорее не согласны
+            <input type="radio" name="t3" value="3"> Затрудняюсь ответить
+            <input type="radio" name="t3" value="4"> Скорее согласны
+            <input type="radio" name="t3" value="5"> Совершенно согласны
+            <br>
+            
+               <label for="t4">4. Интернет-магазины – очень удобный способ совершения покупок:</label><br>
+            <input type="radio" name="t4" value="1"> Категорически не согласны
+            <input type="radio" name="t4" value="2"> Скорее не согласны
+            <input type="radio" name="t4" value="3"> Затрудняюсь ответить
+            <input type="radio" name="t4" value="4"> Скорее согласны
+            <input type="radio" name="t4" value="5"> Совершенно согласны
+            <br>
+            
+               <label for="t5">5. «Подсевшие» на интернет, очень часто одиноки и испытывают проблемы в общении:</label><br>
+            <input type="radio" name="t5" value="1"> Категорически не согласны
+            <input type="radio" name="t5" value="2"> Скорее не согласны
+            <input type="radio" name="t5" value="3"> Затрудняюсь ответить
+            <input type="radio" name="t5" value="4"> Скорее согласны
+            <input type="radio" name="t5" value="5"> Совершенно согласны
+            <br>
+            
+               <label for="t6">6. Информация в интернете помогает человеку стать более грамотным в плане сексуальных отношений:</label><br>
+            <input type="radio" name="t6" value="1"> Категорически не согласны
+            <input type="radio" name="t6" value="2"> Скорее не согласны
+            <input type="radio" name="t6" value="3"> Затрудняюсь ответить
+            <input type="radio" name="t6" value="4"> Скорее согласны
+            <input type="radio" name="t6" value="5"> Совершенно согласны
+            <br>
+            
+               <label for="t7">7. Интернет помогает людям хорошо учиться:</label><br>
+            <input type="radio" name="t7" value="1"> Категорически не согласны
+            <input type="radio" name="t7" value="2"> Скорее не согласны
+            <input type="radio" name="t7" value="3"> Затрудняюсь ответить
+            <input type="radio" name="t7" value="4"> Скорее согласны
+            <input type="radio" name="t7" value="5"> Совершенно согласны
+            <br>
+            
+               <label for="t8">8. Интернет-зависимости не существует, это все выдумки:</label><br>
+            <input type="radio" name="t8" value="1"> Категорически не согласны
+            <input type="radio" name="t8" value="2"> Скорее не согласны
+            <input type="radio" name="t8" value="3"> Затрудняюсь ответить
+            <input type="radio" name="t8" value="4"> Скорее согласны
+            <input type="radio" name="t8" value="5"> Совершенно согласны
+            <br>
+            
+               <label for="t9">9. Сидение в интернете – это бесполезная трата времени:</label><br>
+            <input type="radio" name="t9" value="1"> Категорически не согласны
+            <input type="radio" name="t9" value="2"> Скорее не согласны
+            <input type="radio" name="t9" value="3"> Затрудняюсь ответить
+            <input type="radio" name="t9" value="4"> Скорее согласны
+            <input type="radio" name="t9" value="5"> Совершенно согласны
+            <br>
+            
+               <label for="t10">10. 10.	На общение с окружающими Интернет никак не влияет:</label><br>
+            <input type="radio" name="t10" value="1"> Категорически не согласны
+            <input type="radio" name="t10" value="2"> Скорее не согласны
+            <input type="radio" name="t10" value="3"> Затрудняюсь ответить
+            <input type="radio" name="t10" value="4"> Скорее согласны
+            <input type="radio" name="t10" value="5"> Совершенно согласны
+            <br>
+            
+               <label for="t11">11. При использовании интернета необходимо соблюдать осторожность:</label><br>
+            <input type="radio" name="t11" value="1"> Категорически не согласны
+            <input type="radio" name="t11" value="2"> Скорее не согласны
+            <input type="radio" name="t11" value="3"> Затрудняюсь ответить
+            <input type="radio" name="t11" value="4"> Скорее согласны
+            <input type="radio" name="t11" value="5"> Совершенно согласны
+            <br>
+            
+               <label for="t12">12.	Виртуальный мир пагубно влияет на психику и здоровье:</label><br>
+            <input type="radio" name="t12" value="1"> Категорически не согласны
+            <input type="radio" name="t12" value="2"> Скорее не согласны
+            <input type="radio" name="t12" value="3"> Затрудняюсь ответить
+            <input type="radio" name="t12" value="4"> Скорее согласны
+            <input type="radio" name="t12" value="5"> Совершенно согласны
+            <br>
+            
+               <label for="t13">13. Большинство компьютерных игр калечат психику человека:</label><br>
+            <input type="radio" name="t13" value="1"> Категорически не согласны
+            <input type="radio" name="t13" value="2"> Скорее не согласны
+            <input type="radio" name="t13" value="3"> Затрудняюсь ответить
+            <input type="radio" name="t13" value="4"> Скорее согласны
+            <input type="radio" name="t13" value="5"> Совершенно согласны
+            <br>
+            
+               <label for="t14">14. Террористы и экстремисты используют интернет для пропаганды своих идей:</label><br>
+            <input type="radio" name="t14" value="1"> Категорически не согласны
+            <input type="radio" name="t14" value="2"> Скорее не согласны
+            <input type="radio" name="t14" value="3"> Затрудняюсь ответить
+            <input type="radio" name="t14" value="4"> Скорее согласны
+            <input type="radio" name="t14" value="5"> Совершенно согласны
+            <br>
+
+        
+
+            <label for="t15">15. Социальные сети отвлекают людей от других дел:</label><br>
+            <input type="radio" name="t15" value="1"> Категорически не согласны
+            <input type="radio" name="t15" value="2"> Скорее не согласны
+            <input type="radio" name="t15" value="3"> Затрудняюсь ответить
+            <input type="radio" name="t15" value="4"> Скорее согласны
+            <input type="radio" name="t15" value="5"> Совершенно согласны
+            <br><br>
+        </fieldset>
+
+        <!-- Раздел XI -->
+        <fieldset>
+            <legend>XI. Расскажите о вашем отношении к интернету:</legend>
+
+            <label for="r1">1. После долгого сидения в интернете люди испытывают сильный дискомфорт:</label><br>
+            <input type="radio" name="r1" value="1"> Никогда
+            <input type="radio" name="r1" value="2"> Иногда
+            <input type="radio" name="r1" value="3"> Чаще всего
+            <br>
+
+            <label for="r2">2. Интернет мешает человеку вести здоровый образ жизни:</label><br>
+            <input type="radio" name="r2" value="1"> Никогда
+            <input type="radio" name="r2" value="2"> Иногда
+            <input type="radio" name="r2" value="3"> Чаще всего
+            <br>
+            
+            <label for="r3">3. Современный человек начинает свой день с проверки электронной почты и сообщений в социальных сетях:</label><br>
+            <input type="radio" name="r3" value="1"> Никогда
+            <input type="radio" name="r3" value="2"> Иногда
+            <input type="radio" name="r3" value="3"> Чаще всего
+            <br>
+            
+            <label for="r4">4. В интернете можно выражать свое мнение, оставаясь анонимным:</label><br>
+            <input type="radio" name="r4" value="1"> Никогда
+            <input type="radio" name="r4" value="2"> Иногда
+            <input type="radio" name="r4" value="3"> Чаще всего
+            <br>
+            
+            <label for="r5">5. Публикации в интернете о красивой жизни других людей вызывают депрессию, зависть:</label><br>
+            <input type="radio" name="r5" value="1"> Никогда
+            <input type="radio" name="r5" value="2"> Иногда
+            <input type="radio" name="r5" value="3"> Чаще всего
+            <br>
+            
+            <label for="r6">6. Интернет дает возможность дополнительного заработка:</label><br>
+            <input type="radio" name="r6" value="1"> Никогда
+            <input type="radio" name="r6" value="2"> Иногда
+            <input type="radio" name="r6" value="3"> Чаще всего
+            <br>
+            
+            <label for="r7">7. Образ человека в интернете сильно отличается от реального:</label><br>
+            <input type="radio" name="r7" value="1"> Никогда
+            <input type="radio" name="r7" value="2"> Иногда
+            <input type="radio" name="r7" value="3"> Чаще всего
+            <br>
+            
+            <label for="r8">8. Членство в интернет-сообществе дает человеку ощущение причастности к большой социальной группе, братству:</label><br>
+            <input type="radio" name="r8" value="1"> Никогда
+            <input type="radio" name="r8" value="2"> Иногда
+            <input type="radio" name="r8" value="3"> Чаще всего
+            <br>
+            
+            <label for="r9">9. Благодаря интернету возникает ощущение общения в реальном времени с людьми, находящимися на большом расстоянии:</label><br>
+            <input type="radio" name="r9" value="1"> Никогда
+            <input type="radio" name="r9" value="2"> Иногда
+            <input type="radio" name="r9" value="3"> Чаще всего
+            <br>
+            
+            <label for="r10">10. В интернете много дезинформации:</label><br>
+            <input type="radio" name="r10" value="1"> Никогда
+            <input type="radio" name="r10" value="2"> Иногда
+            <input type="radio" name="r10" value="3"> Чаще всего
+            <br>
+            
+             <label for="r11">11. Интернет снижает уровень эрудиции и образования:</label><br>
+            <input type="radio" name="r11" value="1"> Никогда
+            <input type="radio" name="r11" value="2"> Иногда
+            <input type="radio" name="r11" value="3"> Чаще всего
+            <br>
+            
+             <label for="r12">12. Когда люди делятся своими переживаниями в интернете, они получают психологическую поддержку:</label><br>
+            <input type="radio" name="r12" value="1"> Никогда
+            <input type="radio" name="r12" value="2"> Иногда
+            <input type="radio" name="r12" value="3"> Чаще всего
+            <br>
+            
+            <label for="r13">13. В интернете могут украсть персональных данных:</label><br>
+            <input type="radio" name="r13" value="1"> Никогда
+            <input type="radio" name="r13" value="2"> Иногда
+            <input type="radio" name="r13" value="3"> Чаще всего
+            <br>
+            
+            <label for="r14">14. Пользователи интернета не уважают друг друга:</label><br>
+            <input type="radio" name="r14" value="1"> Никогда
+            <input type="radio" name="r14" value="2"> Иногда
+            <input type="radio" name="r14" value="3"> Чаще всего
+            <br>
+            
+            <label for="r15">15. Весь контент в интернете имеет низкое качество:</label><br>
+            <input type="radio" name="r15" value="1"> Никогда
+            <input type="radio" name="r15" value="2"> Иногда
+            <input type="radio" name="r15" value="3"> Чаще всего
+            <br>
+            
+             <label for="r16">16. Интернет развращает подростков и детей:</label><br>
+            <input type="radio" name="r16" value="1"> Никогда
+            <input type="radio" name="r16" value="2"> Иногда
+            <input type="radio" name="r16" value="3"> Чаще всего
+            <br>
+            
+             <label for="r17">17. Интернет дает возможность быстрого обмена любой информацией:</label><br>
+            <input type="radio" name="r17" value="1"> Никогда
+            <input type="radio" name="r17" value="2"> Иногда
+            <input type="radio" name="r17" value="3"> Чаще всего
+            <br>
+            
+            <label for="r18">18. В интернете нарушаются авторские права:</label><br>
+            <input type="radio" name="r18" value="1"> Никогда
+            <input type="radio" name="r18" value="2"> Иногда
+            <input type="radio" name="r18" value="3"> Чаще всего
+            <br>
+            
+            <label for="r19">19. Серфинг в интернете позволяет людям развлекаться:</label><br>
+            <input type="radio" name="r19" value="1"> Никогда
+            <input type="radio" name="r19" value="2"> Иногда
+            <input type="radio" name="r19" value="3"> Чаще всего
+            <br>
+            
+            <label for="r20">20. Интернет предоставляет людям легкий доступ к сайтам для взрослых (+18):</label><br>
+            <input type="radio" name="r20" value="1"> Никогда
+            <input type="radio" name="r20" value="2"> Иногда
+            <input type="radio" name="r20" value="3"> Чаще всего
+            <br>
+            
+             <label for="r21">21. Интернет дает возможность обучаться дистанционно:</label><br>
+            <input type="radio" name="r21" value="1"> Никогда
+            <input type="radio" name="r21" value="2"> Иногда
+            <input type="radio" name="r21" value="3"> Чаще всего
+            <br>
+
+            <label for="r22">22. В интернете слишком много рекламы:</label><br>
+            <input type="radio" name="r22" value="1"> Никогда
+            <input type="radio" name="r22" value="2"> Иногда
+            <input type="radio" name="r22" value="3"> Чаще всего
+            <br><br>
+        </fieldset>
+
+        <!-- Раздел XII -->
+        <fieldset>
+            <legend>XII. В каких социальных сетях вы зарегистрированы?</legend> 
+            <input type="checkbox" name="social_vkontakte"> Вконтакте<br>
+            <input type="checkbox" name="social_odnoklassniki"> Одноклассники<br>
+            <input type="checkbox" name="social_twitter"> Twitter<br>
+            <input type="checkbox" name="social_instagram"> Instagram<br>
+            <input type="checkbox" name="social_facebook"> Facebook<br>
+            <input type="checkbox" name="social_viber"> Viber<br>
+            <input type="checkbox" name="social_youtube"> Youtube<br>
+            <input type="checkbox" name="social_linkedin"> LinkedIn<br>
+            <input type="checkbox" name="social_telegram"> Telegram<br>
+            <input type="checkbox" name="social_whatsapp"> Whatsapp<br>
+            <input type="checkbox" name="social_tiktok"> TikTok<br>
+            <input type="checkbox" name="social_moy_mir"> Мой мир<br>
+            <br>
+        </fieldset>
+
+        <!-- Раздел XIII -->
+        <fieldset>
+            <legend>XIII. Насколько вы согласны с приведенными ниже тезисами?</legend>
+
+            <label for="s1">1. В интернете существует много молодежных неформальных объединений:</label><br>
+            <input type="radio" name="s1" value="1"> Категорически не согласны
+            <input type="radio" name="s1" value="2"> Скорее не согласны
+            <input type="radio" name="s1" value="3"> Затрудняюсь ответить
+            <input type="radio" name="s1" value="4"> Скорее согласны
+            <input type="radio" name="s1" value="5"> Совершенно согласны
+            <br>
+            
+            <label for="s2">2. Субкультуры и неформальные объединения оказывают негативное влияние на молодежь:</label><br>
+            <input type="radio" name="s2" value="1"> Категорически не согласны
+            <input type="radio" name="s2" value="2"> Скорее не согласны
+            <input type="radio" name="s2" value="3"> Затрудняюсь ответить
+            <input type="radio" name="s2" value="4"> Скорее согласны
+            <input type="radio" name="s2" value="5"> Совершенно согласны
+            <br>
+            
+            <label for="s3">3. Быть членом неформального объединения очень модно:</label><br>
+            <input type="radio" name="s3" value="1"> Категорически не согласны
+            <input type="radio" name="s3" value="2"> Скорее не согласны
+            <input type="radio" name="s3" value="3"> Затрудняюсь ответить
+            <input type="radio" name="s3" value="4"> Скорее согласны
+            <input type="radio" name="s3" value="5"> Совершенно согласны
+            <br>
+            
+            <label for="s4">4. Государство должно контролировать молодежные неформальные объединения:</label><br>
+            <input type="radio" name="s4" value="1"> Категорически не согласны
+            <input type="radio" name="s4" value="2"> Скорее не согласны
+            <input type="radio" name="s4" value="3"> Затрудняюсь ответить
+            <input type="radio" name="s4" value="4"> Скорее согласны
+            <input type="radio" name="s4" value="5"> Совершенно согласны
+            <br>
+            
+              <label for="s5">5. Вступление в молодежное\неформальное объединение чревато негативными последствиями:</label><br>
+            <input type="radio" name="s5" value="1"> Категорически не согласны
+            <input type="radio" name="s5" value="2"> Скорее не согласны
+            <input type="radio" name="s5" value="3"> Затрудняюсь ответить
+            <input type="radio" name="s5" value="4"> Скорее согласны
+            <input type="radio" name="s5" value="5"> Совершенно согласны
+            <br>
+            
+               <label for="s6">6. Существование молодежных субкультур представляет опасность для общества:</label><br>
+            <input type="radio" name="s6" value="1"> Категорически не согласны
+            <input type="radio" name="s6" value="2"> Скорее не согласны
+            <input type="radio" name="s6" value="3"> Затрудняюсь ответить
+            <input type="radio" name="s6" value="4"> Скорее согласны
+            <input type="radio" name="s6" value="5"> Совершенно согласны
+            <br>
+            
+             <label for="s7">7. Молодые люди, состоящие в молодежных субкультурах\ объединениях, интересно и плодотворно проводят время:</label><br>
+            <input type="radio" name="s7" value="1"> Категорически не согласны
+            <input type="radio" name="s7" value="2"> Скорее не согласны
+            <input type="radio" name="s7" value="3"> Затрудняюсь ответить
+            <input type="radio" name="s7" value="4"> Скорее согласны
+            <input type="radio" name="s7" value="5"> Совершенно согласны
+            <br>
+            
+            <label for="s8">8. С возрастом желание быть членом неформального объединения проходит:</label><br>
+            <input type="radio" name="s8" value="1"> Категорически не согласны
+            <input type="radio" name="s8" value="2"> Скорее не согласны
+            <input type="radio" name="s8" value="3"> Затрудняюсь ответить
+            <input type="radio" name="s8" value="4"> Скорее согласны
+            <input type="radio" name="s8" value="5"> Совершенно согласны
+            <br> 
+            
+            <label for="s9">9. Люди часто реагируют на представителей различных субкультур неадекватно:</label><br>
+            <input type="radio" name="s9" value="1"> Категорически не согласны
+            <input type="radio" name="s9" value="2"> Скорее не согласны
+            <input type="radio" name="s9" value="3"> Затрудняюсь ответить
+            <input type="radio" name="s9" value="4"> Скорее согласны
+            <input type="radio" name="s9" value="5"> Совершенно согласны
+            <br>
+            
+            <label for="s10">10. Объединения помогают современной молодежи найти свое место в жизни:</label><br>
+            <input type="radio" name="s10" value="1"> Категорически не согласны
+            <input type="radio" name="s10" value="2"> Скорее не согласны
+            <input type="radio" name="s10" value="3"> Затрудняюсь ответить
+            <input type="radio" name="s10" value="4"> Скорее согласны
+            <input type="radio" name="s10" value="5"> Совершенно согласны
+            <br>
+            
+            <label for="s11">11. Родители не возражают против членства их детей в неформальных объединениях:</label><br>
+            <input type="radio" name="s11" value="1"> Категорически не согласны
+            <input type="radio" name="s11" value="2"> Скорее не согласны
+            <input type="radio" name="s11" value="3"> Затрудняюсь ответить
+            <input type="radio" name="s11" value="4"> Скорее согласны
+            <input type="radio" name="s11" value="5"> Совершенно согласны
+            <br>
+            
+        </fieldset>
+        
+        
+        <fieldset>
+            <legend>XIV. Какие группы в социальных сетях вам интересны? </legend>
+
+            <label for="m1">1. О красоте:</label><br>
+            <input type="radio" name="m1" value="1"> Не интересно
+            <input type="radio" name="m1" value="2"> Иногда посещаю
+            <input type="radio" name="m1" value="3"> Очень интересно
+            <br>
+            
+             <label for="m2">2. О спорте:</label><br>
+            <input type="radio" name="m2" value="1"> Не интересно
+            <input type="radio" name="m2" value="2"> Иногда посещаю
+            <input type="radio" name="m2" value="3"> Очень интересно
+            <br>
+            
+            <label for="m3">3. О смерти:</label><br>
+            <input type="radio" name="m3" value="1"> Не интересно
+            <input type="radio" name="m3" value="2"> Иногда посещаю
+            <input type="radio" name="m3" value="3"> Очень интересно
+            <br>
+            
+            <label for="m4">4. Об отнощениях между людьми:</label><br>
+            <input type="radio" name="m4" value="1"> Не интересно
+            <input type="radio" name="m4" value="2"> Иногда посещаю
+            <input type="radio" name="m4" value="3"> Очень интересно
+            <br>
+            
+            <label for="m5">5. О самоубийствах:</label><br>
+            <input type="radio" name="m5" value="1"> Не интересно
+            <input type="radio" name="m5" value="2"> Иногда посещаю
+            <input type="radio" name="m5" value="3"> Очень интересно
+            <br>
+            
+            <label for="m6">6. О дружбе:</label><br>
+            <input type="radio" name="m6" value="1"> Не интересно
+            <input type="radio" name="m6" value="2"> Иногда посещаю
+            <input type="radio" name="m6" value="3"> Очень интересно
+            <br>
+            
+            <label for="m7">7. О животных:</label><br>
+            <input type="radio" name="m7" value="1"> Не интересно
+            <input type="radio" name="m7" value="2"> Иногда посещаю
+            <input type="radio" name="m7" value="3"> Очень интересно
+            <br>
+            
+            <label for="m8">8. Об учебе:</label><br>
+            <input type="radio" name="m8" value="1"> Не интересно
+            <input type="radio" name="m8" value="2"> Иногда посещаю
+            <input type="radio" name="m8" value="3"> Очень интересно
+            <br>
+            
+            <label for="m9">9. О путешествиях:</label><br>
+            <input type="radio" name="m9" value="1"> Не интересно
+            <input type="radio" name="m9" value="2"> Иногда посещаю
+            <input type="radio" name="m9" value="3"> Очень интересно
+            <br>
+            
+            <label for="m10">10. О здоровье:</label><br>
+            <input type="radio" name="m10" value="1"> Не интересно
+            <input type="radio" name="m10" value="2"> Иногда посещаю
+            <input type="radio" name="m10" value="3"> Очень интересно
+            <br>
+            
+             <label for="m11">11. О криминальной культуре:</label><br>
+            <input type="radio" name="m11" value="1"> Не интересно
+            <input type="radio" name="m11" value="2"> Иногда посещаю
+            <input type="radio" name="m11" value="3"> Очень интересно
+            <br>
+            
+            <label for="m12">12. Об оружии:</label><br>
+            <input type="radio" name="m12" value="1"> Не интересно
+            <input type="radio" name="m12" value="2"> Иногда посещаю
+            <input type="radio" name="m12" value="3"> Очень интересно
+            <br>
+            
+            <label for="m13">13. О наркотических веществах:</label><br>
+            <input type="radio" name="m13" value="1"> Не интересно
+            <input type="radio" name="m13" value="2"> Иногда посещаю
+            <input type="radio" name="m13" value="3"> Очень интересно
+            <br>
+            
+            <label for="m14">14. Об эротике и сексе:</label><br>
+            <input type="radio" name="m14" value="1"> Не интересно
+            <input type="radio" name="m14" value="2"> Иногда посещаю
+            <input type="radio" name="m14" value="3"> Очень интересно
+            <br>
+            
+            <label for="m15">15. О челленджах:</label><br>
+            <input type="radio" name="m15" value="1"> Не интересно
+            <input type="radio" name="m15" value="2"> Иногда посещаю
+            <input type="radio" name="m15" value="3"> Очень интересно
+            <br>
+            
+            <label for="m16">16. Об опасном (экстремальном) досуге:</label><br>
+            <input type="radio" name="m16" value="1"> Не интересно
+            <input type="radio" name="m16" value="2"> Иногда посещаю
+            <input type="radio" name="m16" value="3"> Очень интересно
+            <br>
+            
+             <label for="m17">17. О насилии над другими людьми:</label><br>
+            <input type="radio" name="m17" value="1"> Не интересно
+            <input type="radio" name="m17" value="2"> Иногда посещаю
+            <input type="radio" name="m17" value="3"> Очень интересно
+            <br>
+            
+             <label for="m18">18. О массовых убийствах:</label><br>
+            <input type="radio" name="m18" value="1"> Не интересно
+            <input type="radio" name="m18" value="2"> Иногда посещаю
+            <input type="radio" name="m18" value="3"> Очень интересно
+            <br>
+            
+            
+         </fieldset>
+        
+        
+        <fieldset>
+            <legend>XV. Как вы считаете, за какие действия в интернете необходимо наказывать? </legend>
+
+            <label for="n1">1. Оговор и клевета:</label><br>
+            <input type="radio" name="n1" value="1"> Не стоит наказывать
+            <input type="radio" name="n1" value="2"> Затрудняюсь ответить
+            <input type="radio" name="n1" value="3"> Нужно наказывать
+            <br>
+            
+              <label for="n2">2. Взлом сайта:</label><br>
+            <input type="radio" name="n2" value="1"> Не стоит наказывать
+            <input type="radio" name="n2" value="2"> Затрудняюсь ответить
+            <input type="radio" name="n2" value="3"> Нужно наказывать
+            <br>
+            
+            <label for="n3">3. Разжигание вражды и ненависти:</label><br>
+            <input type="radio" name="n3" value="1"> Не стоит наказывать
+            <input type="radio" name="n3" value="2"> Затрудняюсь ответить
+            <input type="radio" name="n3" value="3"> Нужно наказывать
+            <br>
+            
+            <label for="n4">4. Продажа и пропаганда наркотиков:</label><br>
+            <input type="radio" name="n4" value="1"> Не стоит наказывать
+            <input type="radio" name="n4" value="2"> Затрудняюсь ответить
+            <input type="radio" name="n4" value="3"> Нужно наказывать
+            <br>
+            
+            <label for="n5">5. Распространение детской порнографии:</label><br>
+            <input type="radio" name="n5" value="1"> Не стоит наказывать
+            <input type="radio" name="n5" value="2"> Затрудняюсь ответить
+            <input type="radio" name="n5" value="3"> Нужно наказывать
+            <br>
+            
+            <label for="n6">6. Нарушение тайны частной жизни:</label><br>
+            <input type="radio" name="n6" value="1"> Не стоит наказывать
+            <input type="radio" name="n6" value="2"> Затрудняюсь ответить
+            <input type="radio" name="n6" value="3"> Нужно наказывать
+            <br>
+            
+            <label for="n7">7. Создание и использование торрентов:</label><br>
+            <input type="radio" name="n7" value="1"> Не стоит наказывать
+            <input type="radio" name="n7" value="2"> Затрудняюсь ответить
+            <input type="radio" name="n7" value="3"> Нужно наказывать
+            <br>
+            
+            <label for="n8">8. Хищение чужого имущества:</label><br>
+            <input type="radio" name="n8" value="1"> Не стоит наказывать
+            <input type="radio" name="n8" value="2"> Затрудняюсь ответить
+            <input type="radio" name="n8" value="3"> Нужно наказывать
+            <br>
+            
+            <label for="n9">9. Пропаганда экстремизма и терроризма:</label><br>
+            <input type="radio" name="n9" value="1"> Не стоит наказывать
+            <input type="radio" name="n9" value="2"> Затрудняюсь ответить
+            <input type="radio" name="n9" value="3"> Нужно наказывать
+            <br>
+            
+            <label for="n10">10. Публикация материалов со сценами жестокости и насилия:</label><br>
+            <input type="radio" name="n10" value="1"> Не стоит наказывать
+            <input type="radio" name="n10" value="2"> Затрудняюсь ответить
+            <input type="radio" name="n10" value="3"> Нужно наказывать
+            <br>
+            
+            
+         </fieldset>
+        
+           <fieldset>
+            <legend>XVI. Вы сами:</legend> 
+            <input type="checkbox" name="var_1"> 1.	Посещаю сеть через публичный Wi-Fi<br>
+            <input type="checkbox" name="var_2"> 2.	Пользуюсь VPN и другими
+     анонимайзерами<br>
+            <input type="checkbox" name="var_3"> 3.	Пользуюсь DarkNet<br>
+            <input type="checkbox" name="var_4"> 4.	Посещаю сайты 18+<br>
+            <input type="checkbox" name="var_5"> 5.	Часто играю онлайн в соцсетях и мессенджерах<br>
+            <input type="checkbox" name="var_6"> 6.	Загружаю контент без уверенности в надежности сайта<br>
+            <input type="checkbox" name="var_7"> 7.	Не ставлю на свой профиль в соцсетях ограничение «только для друзей»<br>
+            <input type="checkbox" name="var_8"> 8.	Общаюсь в Сети с совершенно незнакомыми людьми<br>
+            <br>
+        </fieldset>
+        
+        
+        
+         <fieldset>
+            <legend>XVII. Как часто у вас возникают следующие желания? </legend>
+
+            <label for="k1">1. Ударить кого-нибудь из своих друзей:</label><br>
+            <input type="radio" name="k1" value="1"> Никогда
+            <input type="radio" name="k2" value="2"> Иногда
+            <input type="radio" name="k3" value="3"> Затрудняюсь ответить
+             <input type="radio" name="k4" value="3"> Часто
+             <input type="radio" name="k5" value="3"> Очень часто
+            <br>
+             
+              <label for="k2">2. Нагрубить родителям:</label><br>
+            <input type="radio" name="s1" value="1"> Никогда
+            <input type="radio" name="s1" value="2"> Иногда
+            <input type="radio" name="s1" value="3"> Затрудняюсь ответить
+             <input type="radio" name="s1" value="3"> Часто
+             <input type="radio" name="s1" value="3"> Очень часто
+            <br>
+             
+             <label for="k3">3. Отомстить преподавателю, поставившему плохую оценку:</label><br>
+            <input type="radio" name="s1" value="1"> Никогда
+            <input type="radio" name="s1" value="2"> Иногда
+            <input type="radio" name="s1" value="3"> Затрудняюсь ответить
+             <input type="radio" name="s1" value="3"> Часто
+             <input type="radio" name="s1" value="3"> Очень часто
+            <br>
+             
+             <label for="k4">4. Иметь свое настоящее огнестрельное оружие:</label><br>
+            <input type="radio" name="s1" value="1"> Никогда
+            <input type="radio" name="s1" value="2"> Иногда
+            <input type="radio" name="s1" value="3"> Затрудняюсь ответить
+             <input type="radio" name="s1" value="3"> Часто
+             <input type="radio" name="s1" value="3"> Очень часто
+            <br>
+             
+              <label for="k5">5. Убежать из дома, чтобы отдохнуть от родителей:</label><br>
+            <input type="radio" name="s1" value="1"> Никогда
+            <input type="radio" name="s1" value="2"> Иногда
+            <input type="radio" name="s1" value="3"> Затрудняюсь ответить
+             <input type="radio" name="s1" value="3"> Часто
+             <input type="radio" name="s1" value="3"> Очень часто
+            <br>
+             
+              <label for="k6">6. Разместить в Интернете материалы об интересных событиях в Вашей жизни:</label><br>
+            <input type="radio" name="s1" value="1"> Никогда
+            <input type="radio" name="s1" value="2"> Иногда
+            <input type="radio" name="s1" value="3"> Затрудняюсь ответить
+             <input type="radio" name="s1" value="3"> Часто
+             <input type="radio" name="s1" value="3"> Очень часто
+            <br>
+             
+              <label for="k7">7. Самому изготовить взрывчатое вещество, бомбочку:</label><br>
+            <input type="radio" name="s1" value="1"> Никогда
+            <input type="radio" name="s1" value="2"> Иногда
+            <input type="radio" name="s1" value="3"> Затрудняюсь ответить
+             <input type="radio" name="s1" value="3"> Часто
+             <input type="radio" name="s1" value="3"> Очень часто
+            <br>
+             
+              <label for="k8">8. Пообщаться в социальных сетях с незнакомыми людьми:</label><br>
+            <input type="radio" name="s1" value="1"> Никогда
+            <input type="radio" name="s1" value="2"> Иногда
+            <input type="radio" name="s1" value="3"> Затрудняюсь ответить
+             <input type="radio" name="s1" value="3"> Часто
+             <input type="radio" name="s1" value="3"> Очень часто
+            <br>
+             
+              <label for="k9">9. Зайти в даркнет для получения интересной информации:</label><br>
+            <input type="radio" name="s1" value="1"> Никогда
+            <input type="radio" name="s1" value="2"> Иногда
+            <input type="radio" name="s1" value="3"> Затрудняюсь ответить
+             <input type="radio" name="s1" value="3"> Часто
+             <input type="radio" name="s1" value="3"> Очень часто
+            <br>
+             
+              <label for="k10">10. Совершить самоубийство:</label><br>
+            <input type="radio" name="s1" value="1"> Никогда
+            <input type="radio" name="s1" value="2"> Иногда
+            <input type="radio" name="s1" value="3"> Затрудняюсь ответить
+             <input type="radio" name="s1" value="3"> Часто
+             <input type="radio" name="s1" value="3"> Очень часто
+            <br>
+             
+               <label for="k11">11. Завести в интернете новый аккаунт, о котором никто не знает:</label><br>
+            <input type="radio" name="s1" value="1"> Никогда
+            <input type="radio" name="s1" value="2"> Иногда
+            <input type="radio" name="s1" value="3"> Затрудняюсь ответить
+             <input type="radio" name="s1" value="3"> Часто
+             <input type="radio" name="s1" value="3"> Очень часто
+            <br>
+             
+               <label for="k12">12. Зайти на сайты, посещение которых родители бы точно не одобрили:</label><br>
+            <input type="radio" name="s1" value="1"> Никогда
+            <input type="radio" name="s1" value="2"> Иногда
+            <input type="radio" name="s1" value="3"> Затрудняюсь ответить
+             <input type="radio" name="s1" value="3"> Часто
+             <input type="radio" name="s1" value="3"> Очень часто
+            <br>
+            
+        </fieldset>
+        
+        
+            
+
+        <!-- Раздел XVIII -->
+        <fieldset>
+            <legend>XVIII. Ваш пол:</legend>
+            <input type="radio" name="gender" value="male"> Мужской<br>
+            <input type="radio" name="gender" value="female"> Женский<br>
+        </fieldset>
+
+        <!-- Раздел XIX -->
+        <fieldset>
+            <legend>XIX. Ваш возраст:</legend>
+            <input type="number" name="age" min="0" placeholder="Введите ваш возраст"><br>
+        </fieldset>
+
+        <!-- Раздел XX -->
+        
+         <fieldset>
+            <legend>XX. Состав семьи:</legend>
+            <input type="checkbox" name="activities[]" value="мать"> мать<br>
+            <input type="checkbox" name="activities[]" value="отец"> отец<br>
+            <input type="checkbox" name="activities[]" value="мачеха"> мачеха<br>
+            <input type="checkbox" name="activities[]" value="отчим"> отчим<br>
+            <input type="checkbox" name="activities[]" value="бабушка"> бабушка<br>
+            <input type="checkbox" name="activities[]" value="дедушка"> дедушка<br>
+            <input type="checkbox" name="activities[]" value="тетя"> тетя<br>
+            <input type="checkbox" name="activities[]" value="дядя"> дядя<br>
+            <input type="checkbox" name="activities[]" value="брат"> брат<br>
+            <input type="checkbox" name="activities[]" value="сестра"> сестра<br>
+             <input type="checkbox" name="activities[]" value="второй брат"> второй брат<br>
+            <input type="checkbox" name="activities[]" value="вторая сестра"> вторая сестра<br>
+        </fieldset>
+
+        <input type="submit" value="Отправить">
+    </form>
+
+    <!-- Раздел XXI -->
+    <fieldset>
+        <legend>XXI. Возраст родителей</legend>
+
+        <label for="mother_age">1. Мать:</label><br>
+        <input type="number" name="mother_age" min="0" placeholder="Введите возраст матери"><br><br>
+
+        <label for="father_age">2. Отец:</label><br>
+        <input type="number" name="father_age" min="0" placeholder="Введите возраст отца"><br><br>
+    </fieldset>
+
+    <!-- Раздел XXII -->
+    <fieldset>
+        <legend>XXII. Кем работают ваши родители?</legend>
+
+        <!-- Мать -->
+        <label for="mother_job">Мать:</label><br>
+        <input type="radio" name="mother_job" value="рабочим"> Рабочим<br>
+        <input type="radio" name="mother_job" value="служащим"> Служащим<br>
+        <input type="radio" name="mother_job" value="инженером"> Инженером (ИТР)<br>
+        <input type="radio" name="mother_job" value="учителем_врачом"> Учителем, врачом (интеллигенция)<br>
+        <input type="radio" name="mother_job" value="предпринимателем"> Предпринимателем<br>
+        <input type="radio" name="mother_job" value="руководителем"> Руководителем предприятия<br>
+        <input type="radio" name="mother_job" value="безработным"> Безработным<br>
+        <input type="radio" name="mother_job" value="пенсионером"> Пенсионером<br>
+        <input type="radio" name="mother_job" value="затрудняюсь_ответить"> Затрудняюсь ответить<br><br>
+
+        <!-- Отец -->
+        <label for="father_job">Отец:</label><br>
+        <input type="radio" name="father_job" value="рабочим"> Рабочим<br>
+        <input type="radio" name="father_job" value="служащим"> Служащим<br>
+        <input type="radio" name="father_job" value="инженером"> Инженером (ИТР)<br>
+        <input type="radio" name="father_job" value="учителем_врачом"> Учителем, врачом (интеллигенция)<br>
+        <input type="radio" name="father_job" value="предпринимателем"> Предпринимателем<br>
+        <input type="radio" name="father_job" value="руководителем"> Руководителем предприятия<br>
+        <input type="radio" name="father_job" value="безработным"> Безработным<br>
+        <input type="radio" name="father_job" value="пенсионером"> Пенсионером<br>
+        <input type="radio" name="father_job" value="затрудняюсь_ответить"> Затрудняюсь ответить<br><br>
+    </fieldset>
+
+    <!-- Раздел XXIII -->
+    <fieldset>
+        <legend>XXIII. Образование ваших родителей</legend>
+
+        <!-- Мать -->
+        <label for="mother_education">Мать:</label><br>
+        <input type="radio" name="mother_education" value="неполное_среднее"> Неполное среднее<br>
+        <input type="radio" name="mother_education" value="среднее_общее"> Среднее общее<br>
+        <input type="radio" name="mother_education" value="среднее_специальное"> Среднее специальное<br>
+        <input type="radio" name="mother_education" value="высшее"> Высшее<br>
+        <input type="radio" name="mother_education" value="затрудняюсь_ответить"> Затрудняюсь ответить<br><br>
+
+        <!-- Отец -->
+        <label for="father_education">Отец:</label><br>
+        <input type="radio" name="father_education" value="неполное_среднее"> Неполное среднее<br>
+        <input type="radio" name="father_education" value="среднее_общее"> Среднее общее<br>
+        <input type="radio" name="father_education" value="среднее_специальное"> Среднее специальное<br>
+        <input type="radio" name="father_education" value="высшее"> Высшее<br>
+        <input type="radio" name="father_education" value="затрудняюсь_ответить"> Затрудняюсь ответить<br><br>
+    </fieldset>
+
+    <!-- Раздел XXIV -->
+    <fieldset>
+        <legend>XXIV. Оцените, пожалуйста, материальное положение вашей семьи</legend>
+
+        <input type="radio" name="family_financial_status" value="1"> Денег не хватает даже на еду<br>
+        <input type="radio" name="family_financial_status" value="2"> Денег хватает на еду, но покупать одежду уже сложно<br>
+        <input type="radio" name="family_financial_status" value="3"> Денег хватает на еду и одежду, но не достаточно для покупки товаров длительного пользования<br>
+        <input type="radio" name="family_financial_status" value="4"> Денег достаточно для покупки еды, одежды и товаров длительного пользования, но недостаточно для покупки квартиры, машины<br>
+        <input type="radio" name="family_financial_status" value="5"> Мы можем себе позволить практически все, что захотим<br><br>
+    </fieldset>
+
+    <!-- Раздел XXV -->
+    <fieldset>
+        <legend>XXV. Вы проживаете в:</legend>
+
+        <input type="radio" name="housing_type" value="отдельной_квартире"> Отдельной квартире<br>
+        <input type="radio" name="housing_type" value="коммунальной_квартире"> Коммунальной квартире<br>
+        <input type="radio" name="housing_type" value="частном_доме"> Частном доме<br>
+        <input type="radio" name="housing_type" value="семейном_общежитии"> Семейном общежитии<br>
+        <input type="radio" name="housing_type" value="молодежном_общежитии"> Молодежном общежитии<br>
+
+        <label for="other_housing">Иное (впишите свой вариант):</label><br>
+        <input type="text" name="other_housing" id="other_housing" placeholder="Укажите тип жилья"><br><br>
+    </fieldset>
+
+    <!-- Раздел XXVI -->
+    <fieldset>
+        <legend>XXVI. Как вы оцениваете качество своего жилья:</legend>
+
+        <input type="radio" name="housing_quality" value="элитное_жилье"> Элитное жилье<br>
+        <input type="radio" name="housing_quality" value="современное_благоустроенное"> Современное благоустроенное жилье (дому не более пяти-шести лет)<br>
+        <input type="radio" name="housing_quality" value="застройка_80_90"> Застройка 80-х и 90-х годов<br>
+        <input type="radio" name="housing_quality" value="старый_но_исправный"> Старый, но исправный дом<br>
+        <input type="radio" name="housing_quality" value="ветхий_фонд"> Ветхий фонд<br><br>
+    </fieldset>
+
+    <!-- Раздел XXVII -->
+    <fieldset>
+        <legend>XXVII. В каком районе Нижнего Новгорода или области вы проживаете:</legend>
+
+        <input type="text" name="residence_area" placeholder="Укажите район или область"><br><br>
+    </fieldset>
+    
+    <fieldset>
+            <legend>XXVIII. Тип населенного пункта</legend>
+            <select name="settlement_type">
+                <option value="Мегаполис">Мегаполис</option>
+                <option value="Райцентр">Райцентр</option>
+                <option value="Поселок">Поселок</option>
+                <option value="Село">Село, деревня</option>
+            </select><br>
+        </fieldset>
+
+    <input type="submit" value="Отправить">
+</form>
+</body>
+</html>
+
+<script>
+document.getElementById("survey-form").addEventListener("submit", function(e) {
+    e.preventDefault();
+    
+    // Собираем все данные формы
+    const formData = new FormData(this);
+    const data = {};
+    
+    // Обрабатываем radio кнопки
+    document.querySelectorAll('input[type="radio"]:checked').forEach(input => {
+        data[input.name] = input.value;
+    });
+    
+    // Обрабатываем чекбоксы (объединяем значения через запятую)
+    document.querySelectorAll('input[type="checkbox"]:checked').forEach(input => {
+        if (data[input.name]) {
+            data[input.name] += ', ' + input.value || 'отмечено';
+        } else {
+            data[input.name] = input.value || 'отмечено';
+        }
+    });
+    
+    // Обрабатываем текстовые поля, числа и textarea
+    document.querySelectorAll('input[type="text"], input[type="number"], textarea, select').forEach(input => {
+        if (input.value) data[input.name] = input.value;
+    });
+    
+    // Добавляем timestamp
+    data.timestamp = new Date().toISOString();
+    
+    // Отправляем данные
+    fetch("https://script.google.com/macros/s/AKfycbyk_EOS0rUUPPHCDvQyrT-iaOP_hbD387bZQpFrTjtwyTvbValfEKxWGUodFS9AH6rEMA/exec", {
+        method: "POST",
+        body: JSON.stringify(data),
+        headers: { "Content-Type": "application/json" }
+    })
+    .then(response => response.text())
+    .then(data => {
+        alert("Спасибо! Ваши ответы сохранены.");
+    })
+    .catch(error => {
+        console.error('Error:', error);
+        alert("Произошла ошибка при отправке.");
+    });
+});
+</script>
+
